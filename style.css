@@ -1,0 +1,465 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*--------------------BARRA DE NAVEGACIÓN-------------------*/
+.nav img{
+    width: 200px;
+    display: flex;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.links,.links a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-weight: bold;
+    font-size: small;
+    gap: 35px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 55px;
+}
+
+.icons, .icons a{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    gap: 15px;
+}
+
+/* Estilos del menú hamburguesa */
+.navbar-toggler {
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    color: black;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-toggler i {
+    font-size: 25px;
+}
+
+/*--------------------HERO-------------------*/
+.hero{
+    background-image: url(imagenes/hero-img.jpg);
+    display: flex;
+    flex-direction: column;
+    align-content: left;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+    justify-content: center;
+}
+
+.h1-hero{
+    width: 300px;
+    color: white;
+    font-size: 45px;
+    margin-left: 10%;
+}
+
+.btn-hero, .btn-hero a{
+    width: 128px;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+    cursor: pointer;
+}
+
+/*--------------------DESCRIPTION-------------------*/
+.desc img {
+    margin-top: 90px;
+    width: 500px;
+}
+
+.desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+.desc-text {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.desc-p {
+    display: flex;
+    text-align: center;
+    padding-top: 60px;
+    width: 670px;
+    font-size: 22px;
+    line-height: 1.6; /* Aumentar el espacio entre líneas para mejor legibilidad */
+    margin-bottom: 20px; /* Añadir espacio por debajo del párrafo */
+}
+
+.more-text {
+    display: none;
+    justify-content: center;
+    text-align: center;
+    width: 600px;
+    font-size: 22px;
+    line-height: 1.6; /* Aumentar el espacio entre líneas para mejor legibilidad */
+}
+
+.btn-desc {
+    border: none;
+    background-color: white;
+    color: #551A8B;
+    width: 130px;
+    cursor: pointer;
+}
+
+.desc-div {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+/*--------------------COLECCION-------------------*/
+.coleccion img{
+    width: 250px;
+    height: 250px;
+}
+
+.coleccion{
+    background-color: #C7B297;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+.text-coleccion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+    font-size: 25px;
+}
+
+.text-coleccion p{
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+.galeria{
+display: flex;
+flex-direction: column;
+padding-bottom: 55px;
+justify-content: center;
+gap: 50px;
+}
+
+.galeria1{
+display: flex;
+justify-content: center;
+gap: 50px;
+}
+
+.galeria2{
+display: flex;
+justify-content: center;
+gap: 50px;
+}
+
+.card{
+    width: 250px;
+    height: 365px;
+    display: flex;
+    align-items: center;
+}
+
+.card img{
+    width: 240px;
+    height: 200px;
+}
+
+.card:hover{
+border: 2px solid black;
+}
+
+.card-text{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.card-price{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+/*--------------------CONTACT-------------------*/
+.contact a{
+    color: black;
+}
+
+.contact p{
+    width: 250px;
+}
+
+.contact{
+    background-color: #FFFFFF;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 90px;
+}
+
+.h2-contact{
+    margin-top: 90px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.form-contact{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    gap: 15px;
+}
+
+.btn-form{
+    border: none;
+    border-radius: 45px;
+    height: 40px;
+    width: 80px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.email-form{
+    border-radius: 10px;
+    height: 30px;
+    border-color: black;
+}
+
+.message-form{
+    border-radius: 10px;
+    height: 100px;
+    border-color: black;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    display: none;
+}
+
+
+/*-----------------FOOTER--------------------*/
+
+.footer{
+    background-color: black;
+}
+
+.links-footer,.links-footer a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-weight: bold;
+    font-size: small;
+    gap: 35px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 55px;
+}
+
+
+.links,.links-footer{
+    display: none;
+}
+
+.nav-footer img{
+    width: 200px;
+    display: flex;
+}
+
+.nav-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.icons-footer a{
+    background-color: black;
+}
+.icons-footer, .icons-footer a{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    gap: 15px;
+}
+
+
+
+/*--------------------UNDERLINE BLACK--------------------*/
+
+.underline{
+    color: black;
+    font-size: 6rem;
+    display: inline-block;
+    position: relative;
+}
+
+.underline::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: 28px;
+    left: 0;
+    background-color: black;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease-out;
+}
+
+.underline:hover:after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+/*--------------------UNDERLINE WHITE--------------------*/
+
+.underline-footer{
+    color: white;
+    font-size: 6rem;
+    display: inline-block;
+    position: relative;
+}
+
+.underline-footer::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: 28px;
+    left: 0;
+    background-color: white;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease-out;
+}
+
+.underline-footer:hover:after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+/*--------------------MEDIAS QUERY--------------------*/
+@media (max-width: 768px) {
+    .contact p {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .h2-contact {
+        font-size: 30px;
+    }
+    
+    .form-contact {
+        width: 90%;
+    }
+}
+
+@media (max-width: 360px) {
+    .nav {
+        justify-content: space-between;
+    }
+    .navbar-toggler i {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 1000px){
+    .nav-div-links ul {
+        display: none;    /* Ocultar los enlaces en pantallas pequeñas por defecto */
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background-color: white;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Estilos para cuando el menú hamburguesa está activo y los enlaces deben aparecer */
+    .nav-div-links.active ul {
+        display: flex; /* Mostrar los enlaces cuando el menú hamburguesa está activo */
+    }
+    
+}
+
+@media (max-width: 1000px) {
+    .navbar-toggler {
+        display: flex;
+    }
+}
+
+@media (min-width:1000px){
+    .links, .links-footer{
+        display: flex;
+    }
+}
+
+@media (max-width:1050px){
+    .desc-div{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width:770px){
+    .desc-p, .more-text{
+        font-size: 13px;
+    }
+
+}
+
+
+@media (max-width:1000px){
+    .footer{
+        height: 200px;
+        align-content: center;
+    }
+}
+
+@media (max-width: 345px) {
+    .h1-hero {
+        width: 250px;
+    }
+}
